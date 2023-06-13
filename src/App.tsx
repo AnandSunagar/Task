@@ -1,13 +1,19 @@
 import React from 'react';
 import './App.css';
 import ChildComponent from './Components/ChildComponent';
+import ParentComponent from './Components/ParentComponent';
 
-function App() {
+function Apps() {
   return (
     <div className="App">
+      <ParentComponent/>
+      <br/>
+      <br/>
+   
     <ChildComponent/>
+    
     </div>
   );
 }
 
-export default App;
+export default Apps;
